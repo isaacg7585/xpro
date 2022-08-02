@@ -1,6 +1,18 @@
-EXTINF:-1 tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/317.png" group-title="PANAMA",Panama 1
-http://localhost:8899/live.m3u?tmp=0&portal=1&channel=http%3A%2F%2Furtmpkal-f.akamaihd.net%2Fi%2F19wqj1kgf_1%40136614%2Fmaster.m3u8
-#EXTINF:-1 tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1301.png" group-title="PANAMA",Panama 2
-http://localhost:8899/live.m3u?tmp=0&portal=1&channel=ffrt2+http%3A%2F%2Flive.rpctv.com%2Frpctv%2Ftm.smil%2Fplaylist.m3u8
-#EXTINF:-1 tvg-logo="http://portal.iptvprivateserver.tv/stalker_portal/misc/logos/320/1303.png" group-title="PANAMA",Panama 3
-http://localhost:8899/live.m3u?tmp=0&portal=1&channel=ffrt2+http%3A%2F%2Flive.telemetro.com%2Ftelemetro%2Ftm.smil%2Fplaylist.m3u8
+#EXTINF: -1, group-title="PANAMA", TELEMETRO 		
+https://mdstrm.com/live-stream-playlist/5d88dd2229b0890723df2165.m3u8
+
+
+
+#EXTM3U size="big"
+
+#EXTINF:0 type="playlist" tvg-logo="",SERIES
+m3u:https://elthondsaraujo.github.io/ssiptv/menu/menu_series.m3u
+
+#EXTINF:0 type="playlist" tvg-logo="",FILMES - Atualizando
+m3u:https://elthondsaraujo.github.io/ssiptv/menu/menu_filmes.m3u
+
+#EXTINF:0 type="playlist" tvg-logo="",ANIMES - Atualizando
+m3u:https://elthondsaraujo.github.io/ssiptv/menu/menu_animes.m3u
+
+#EXTINF:0 type="playlist" tvg-logo="",CANAIS - Em Breve
+m3u:https://elthondsaraujo.github.io/ssiptv/menu/menu_canais.m3u
