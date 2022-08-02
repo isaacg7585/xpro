@@ -1,31 +1,25 @@
-
 #EXTM3U
-#EXTINF:-1 group-title="Peliculas",.http://.. 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/jDNLTp1/ikmnjki.png",ACCION
-https://raw.githubusercontent.com/laureanoflix/Peliculas/main/ACCION.m3u
-#EXTINF:-1 tvg-logo="https://i.ibb.co/TW8mWYL/ndice-1.png",AVENTURA
-https://raw.githubusercontent.com/laureanoflix/Peliculas/main/AVENTURA.m3u
-#EXTINF:-1 tvg-logo="https://i.ibb.co/0QnTF1X/Whats-App-Image-2021-07-25-at-2-18-23-AM.png",BELICAS
-https://raw.githubusercontent.com/laureanoflix/Peliculas/main/BELICAS.m3u
-#EXTINF:-1 tvg-logo="https://i.ibb.co/6Wkd4D2/Whats-App-Image-2021-07-25-at-2-18-19-AM-1.png",CIENCIA FICCION
-https://raw.githubusercontent.com/laureanoflix/Peliculas/main/CIENCIA%20FICCION.m3u
-#EXTINF:-1 tvg-logo="https://i.ibb.co/fd1bn4R/Whats-App-Image-2021-07-25-at-2-18-23-AM-1.png",COMEDIAS
-https://raw.githubusercontent.com/laureanoflix/Peliculas/main/COMEDIA.m3u
-#EXTINF:-1 tvg-logo="https://i.ibb.co/r7Q8TDh/Whats-App-Image-2021-07-25-at-2-18-19-AM-5.png",CRIMEN
-https://raw.githubusercontent.com/laureanoflix/Peliculas/main/CRIMEN.m3u
-#EXTINF:-1 tvg-logo="https://i.ibb.co/ZgHC9Dc/Whats-App-Image-2021-07-25-at-2-18-24-AM-2.png",DRAMA
-https://raw.githubusercontent.com/laureanoflix/Peliculas/main/DRAMA.m3u
-#EXTINF:-1 tvg-logo="https://i.ibb.co/gzQv2nK/Whats-App-Image-2021-07-25-at-2-18-19-AM.png",FANTASIA
-https://raw.githubusercontent.com/laureanoflix/Peliculas/main/FANTASIA.m3u
-#EXTINF:-1 tvg-logo="https://i.ibb.co/yQMzWSh/Whats-App-Image-2021-07-25-at-2-18-19-AM-3.png",INFANTILES
-https://raw.githubusercontent.com/laureanoflix/Peliculas/main/INFANTILES.m3u
-#EXTINF:-1 tvg-logo="https://i.ibb.co/W0MshN0/ki.png",ROMANTICAS
-https://raw.githubusercontent.com/laureanoflix/Peliculas/main/ROMANTICAS.m3u
-#EXTINF:-1 tvg-logo="https://i.ibb.co/PGs9K9k/marvel-vs-dc-1u-1920x1080-1.png",SUPER HEROES
-https://raw.githubusercontent.com/laureanoflix/Peliculas/main/SUPER%20HEROES.m3u
-#EXTINF:-1 tvg-logo="https://i.ibb.co/nPrxHPf/Whats-App-Image-2021-07-25-at-2-18-18-AM.jpg",SUSPENSO
-https://raw.githubusercontent.com/laureanoflix/Peliculas/main/SUSPENSO.m3u
-#EXTINF:-1 tvg-logo="https://i.ibb.co/WgbgZs1/Whats-App-Image-2021-07-25-at-2-18-23-AM-2.png",TERROR
-https://raw.githubusercontent.com/laureanoflix/Peliculas/main/TERROR.m3u
-#EXTINF:-1 tvg-logo="https://i.ibb.co/rdGSBn8/Whats-App-Image-2021-07-25-at-2-18-24-AM.png",WESTERN
-https://raw.githubusercontent.com/laureanoflix/Peliculas/main/WESTERN.m3u
+#EXT-X-VERSION:5
+#EXT-X-MEDIA:TYPE=AUDIO,URI="https://live-tvg-df-05.video.globo.com/d/m/s/hls-globo-go01/playlist.m3u8?h=040165517904395542756471655092643504892426678YTMUXHsNaFuCawvdnwyQ&k=html5&a=F&u=5a39963a-fa9b-4eb1-8612-de4c3358f6c7",GROUP-ID="audio-AACL-145",LANGUAGE="en",NAME="English",AUTOSELECT=YES,CHANNELS="2"
+#EXT-X-MEDIA:TYPE=AUDIO,URI="#EXT-X-MEDIA:TYPE=AUDIO,URI="https://live-tvg-df-05.video.globo.com/d/m/s/hls-globo-go01/playlist.m3u8?h=040165517904395542756471655092643504892426678YTMUXHsNaFuCawvdnwyQ&k=html5&a=F&u=5a39963a-fa9b-4eb1-8612-de4c3358f6c7",GROUP-ID="audio-AACL-145",LANGUAGE="en",NAME="English",AUTOSELECT=YES,CHANNELS="2"
+",GROUP-ID="audio-AACL-145",LANGUAGE="es",NAME="Spanish",DEFAULT=YES,AUTOSELECT=YES,CHANNELS="2"
+#EXT-X-STREAM-INF:BANDWIDTH=604358,AVERAGE-BANDWIDTH=549418,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=416x240,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
+http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-avc1_379968=10016.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=837558,AVERAGE-BANDWIDTH=761418,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=640x360,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
+http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-avc1_579968=10015.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1210678,AVERAGE-BANDWIDTH=1100618,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=854x480,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
+http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-avc1_899968=10014.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1910278,AVERAGE-BANDWIDTH=1736618,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1024x576,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
+http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-avc1_1499968=10012.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=3076278,AVERAGE-BANDWIDTH=2796618,CODECS="avc1.4d401f,mp4a.40.2",RESOLUTION=1280x720,FRAME-RATE=29.970,AUDIO="audio-AACL-145"
+http://edge5-sl.cvattv.com.ar/live/c3eds/ArtearHD/SA_SAGEMCOM/ArtearHD-avc1_2499968=10007.m3u8
+#EXT-X-I-FRAME-STREAM-INF:URI="#EXT-X-MEDIA:TYPE=AUDIO,URI="https://live-tvg-df-05.video.globo.com/d/m/s/hls-globo-go01/playlist.m3u8?h=040165517904395542756471655092643504892426678YTMUXHsNaFuCawvdnwyQ&k=html5&a=F&u=5a39963a-fa9b-4eb1-8612-de4c3358f6c7",GROUP-ID="audio-AACL-145",LANGUAGE="en",NAME="English",AUTOSELECT=YES,CHANNELS="2"
+",BANDWIDTH=55380,AVERAGE-BANDWIDTH=50345,CODECS="avc1.4d401e",RESOLUTION=416x240
+#EXT-X-I-FRAME-STREAM-INF:URI="#EXT-X-MEDIA:TYPE=AUDIO,URI="https://live-tvg-df-05.video.globo.com/d/m/s/hls-globo-go01/playlist.m3u8?h=040165517904395542756471655092643504892426678YTMUXHsNaFuCawvdnwyQ&k=html5&a=F&u=5a39963a-fa9b-4eb1-8612-de4c3358f6c7",GROUP-ID="audio-AACL-145",LANGUAGE="en",NAME="English",AUTOSELECT=YES,CHANNELS="2"
+",BANDWIDTH=84530,AVERAGE-BANDWIDTH=76845,CODECS="avc1.4d401e",RESOLUTION=640x360
+#EXT-X-I-FRAME-STREAM-INF:URI="#EXT-X-MEDIA:TYPE=AUDIO,URI="https://live-tvg-df-05.video.globo.com/d/m/s/hls-globo-go01/playlist.m3u8?h=040165517904395542756471655092643504892426678YTMUXHsNaFuCawvdnwyQ&k=html5&a=F&u=5a39963a-fa9b-4eb1-8612-de4c3358f6c7",GROUP-ID="audio-AACL-145",LANGUAGE="en",NAME="English",AUTOSELECT=YES,CHANNELS="2"
+",BANDWIDTH=131170,AVERAGE-BANDWIDTH=119245,CODECS="avc1.4d401f",RESOLUTION=854x480
+#EXT-X-I-FRAME-STREAM-INF:URI="#EXT-X-MEDIA:TYPE=AUDIO,URI="https://live-tvg-df-05.video.globo.com/d/m/s/hls-globo-go01/playlist.m3u8?h=040165517904395542756471655092643504892426678YTMUXHsNaFuCawvdnwyQ&k=html5&a=F&u=5a39963a-fa9b-4eb1-8612-de4c3358f6c7",GROUP-ID="audio-AACL-145",LANGUAGE="en",NAME="English",AUTOSELECT=YES,CHANNELS="2"
+",BANDWIDTH=218620,AVERAGE-BANDWIDTH=198745,CODECS="avc1.4d401f",RESOLUTION=1024x576
+#EXT-X-I-FRAME-STREAM-INF:URI="#EXT-X-MEDIA:TYPE=AUDIO,URI="https://live-tvg-df-05.video.globo.com/d/m/s/hls-globo-go01/playlist.m3u8?h=040165517904395542756471655092643504892426678YTMUXHsNaFuCawvdnwyQ&k=html5&a=F&u=5a39963a-fa9b-4eb1-8612-de4c3358f6c7",GROUP-ID="audio-AACL-145",LANGUAGE="en",NAME="English",AUTOSELECT=YES,CHANNELS="2"
+",BANDWIDTH=364370,AVERAGE-BANDWIDTH=331245,CODECS="avc1.4d401f",RESOLUTION=1280x720
